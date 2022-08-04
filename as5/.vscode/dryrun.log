@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/damir/Desktop/as5'
+g++ -O3 -flto -c -Wreturn-type -pedantic -pedantic-errors -Wundef -std=c++11 main.cpp -o  main.o
+g++ -O3 -flto -c -Wreturn-type -pedantic -pedantic-errors -Wundef -std=c++11 set.cpp -o  set.o
+g++ -O3 -flto -Wreturn-type -pedantic -pedantic-errors -Wundef -std=c++11 -o main main.o set.o
+make: Leaving directory '/home/damir/Desktop/as5'
+ 
